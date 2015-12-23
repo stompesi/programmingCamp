@@ -4,31 +4,31 @@
 using namespace std;
 #define MAX_STR 128
 class String{
-	char* str;
+	char* pStr;
 public :
 	String(char* s);
 	void show();
-	void operator =(String& str);
-	String operator + (String& str);
+	void operator =(String& rStr);
+	String operator + (String& rStr);
 	~String();
 };
-void String::operator=(String& str){
-	strcpy(this->str,str.str);
+void String::operator=(String& rStr){
+	strcpy(this->pStr,rStr.pStr);
 }
-String String::operator+(String& str){
-	strcat(this->str, str.str);
-	return this->str;
+String String::operator+(String& rStr){
+	strcat(this->pStr, rStr.pStr);
+	return this->pStr;
 }
 
 String::String(char* s){
-	str = new char[MAX_STR];
-	strcpy(str,s);		
+	pStr = new char[MAX_STR];
+	strcpy(pStr,s);		
 }
 String::~String(){
-	delete str;
+	delete pStr;
 }
 void String::show(){
-	cout<<str<<endl;
+	cout<<pStr<<endl;
 }
 void problem_3(){
 	String s1("hello"), s2("how are you?");
