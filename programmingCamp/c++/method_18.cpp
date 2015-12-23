@@ -3,42 +3,42 @@
 using namespace std;
 class Block{
 public :
-	string name;
-	int width;
-	int length;
-	int height;
+	string aName;
+	int aWidth;
+	int aLength;
+	int aHeight;
 	Block(string name,int width,int length,int height);
-	virtual int getVolume();
+	virtual int GetVolume();
 };
 Block::Block(string name,int width, int length, int height){
-	this->name = name;
-	this->width = width;
-	this->length = length;
-	this->height = height;
+	this->aName = name;
+	this->aWidth = width;
+	this->aLength = length;
+	this->aHeight = height;
 }
-int Block::getVolume(){
-	return width * length * height;
+int Block::GetVolume(){
+	return aWidth * aLength * aHeight;
 }
 
 class BlockPrism : public Block{
 public :
 	BlockPrism(string name, int width, int length, int height);
-	int getVolume();
+	int GetVolume();
 };
 BlockPrism::BlockPrism(string name, int width, int length, int height) : Block(name,width,length,height){
 }
-int BlockPrism::getVolume(){
-	return  (width * length * height)*((double)1/3);
+int BlockPrism::GetVolume(){
+	return  (aWidth * aLength * aHeight)*((double)1/3);
 }
 class BlockHuman : public Block{
 public :
 	BlockHuman(string name, int width, int length, int height);
-	int getVolume();
+	int GetVolume();
 };
 BlockHuman::BlockHuman(string name, int width, int length, int height) : Block(name,width,length,height){
 }
-int BlockHuman::getVolume(){
-	return (width * length * height)*((double)1/2);
+int BlockHuman::GetVolume(){
+	return (aWidth * aLength * aHeight)*((double)1/2);
 }
 void problem_18(){
     Block *b[3];
@@ -47,5 +47,5 @@ void problem_18(){
 	b[2] = new BlockHuman("Human", 10, 10, 10);
 
 	for (int i = 0; i < 3; i++)
-		cout << b[i]->name << " = " << b[i]->getVolume()<<endl;
+		cout << b[i]->aName << " = " << b[i]->GetVolume()<<endl;
 }
