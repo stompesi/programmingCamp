@@ -16,16 +16,13 @@ int problem_3() {
 		return 0;
 	}
 
-	switch (rank)
-	{
-	case 1: printf("프린트, ");
-	case 2: printf("컴퓨터, ");
-	case 3: printf("상금, ");
-	case 4: printf("상패"); break;
-	default: printf("없음");
-		break;
+	switch (rank) {
+		case 1: printf("프린트, ");
+		case 2: printf("컴퓨터, ");
+		case 3: printf("상금, ");
+		case 4: printf("상패\n"); break;
+		default: printf("없음\n"); break;
 	}
-	putchar('\n');
 
 	return 0;
 }
