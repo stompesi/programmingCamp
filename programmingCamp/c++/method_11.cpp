@@ -2,45 +2,45 @@
 
 using namespace std;
 
-class intStorage{
-	int *p;
-	int size;
+class IntStorage{
+	int *apValue;
+	int aSize;
 public:
-	intStorage(int n);
-	~intStorage();
-	void read();
+	IntStorage(int n);
+	~IntStorage();
+	void read();		//문제에서 요구한대로 표기.
 	void write();
 	int Max();
 };
-int intStorage::Max(){
-	int max = p[0];
-	for(int i = 0 ; i < size ; i++)
-		(p[i] > max)?max=p[i]:max=max;
+int IntStorage::Max(){
+	int max = apValue[0];
+	for(int i = 0 ; i < aSize ; i++)
+		(apValue[i] > max)?max=apValue[i]:max=max;
 	return max;
 }
-void intStorage::read(){
+void IntStorage::read(){
 	cout<<endl;
-	for(int i = 0 ; i < size ; i++)
-		cin>>p[i];
+	for(int i = 0 ; i < aSize ; i++)
+		cin>>apValue[i];
 }
-void intStorage::write(){
+void IntStorage::write(){
 	cout<<endl;
-	for(int i = 0 ; i < size ; i++)
-		cout<<p[i]<<endl;
+	for(int i = 0 ; i < aSize ; i++)
+		cout<<apValue[i]<<endl;
 }
-intStorage::intStorage(int n){
-	this->size = n;
-	this->p = new int[size];
+IntStorage::IntStorage(int n){
+	this->aSize = n;
+	this->apValue = new int[aSize];
 }
-intStorage::~intStorage(){
-	delete [] p;
+IntStorage::~IntStorage(){
+	delete [] apValue;
 }
 
 void problem_11(){
 	int n;
 	cout<< "몇 개의 정수를 저장 하겠습니까?"<<endl;
 	cin >> n;
-	intStorage s(n);
+	IntStorage s(n);
 	cout<<"input "<<n<<" integers ";
 	s.read();
 	cout<<"입력한 정수는 :";
