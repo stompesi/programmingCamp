@@ -4,6 +4,7 @@
 #include <stdio.h>
 
 int problem_1();
+int problem_2();
 int problem_3();
 int problem_4();
 
