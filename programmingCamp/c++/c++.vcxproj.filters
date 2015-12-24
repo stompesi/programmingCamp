@@ -15,10 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="method_18.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="codingConvention.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="method_18.cpp">
+	<Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="method_24.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

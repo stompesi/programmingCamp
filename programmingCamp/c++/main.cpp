@@ -1,5 +1,9 @@
 #include"method.h"
 
-int main(){
-	problem_18();
+
+int main() {
+	Effector effector = Effector();
+	effector.Problem18();
+
+	return 0;
 }
