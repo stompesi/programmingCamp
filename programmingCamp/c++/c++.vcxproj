@@ -75,8 +75,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="codingConvention.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="codingConvention.cpp" />
+    <ClCompile Include="method_18.cpp" />
     <ClCompile Include="method_24.cpp" />
   </ItemGroup>
   <ItemGroup>
