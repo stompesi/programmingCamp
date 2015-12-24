@@ -83,6 +83,7 @@
     <ClCompile Include="method_3.c" />
     <ClCompile Include="method_4.c" />
     <ClCompile Include="problem_7.c" />
+    <ClCompile Include="method_5.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="method.h" />
