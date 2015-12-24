@@ -13,8 +13,10 @@ int problem_5() {
 		if (n % i == 0) {
 			if (n == i) {
 				printf("입력한 %d는 소수입니다.\n", n);
+				break;
 			} else {
 				printf("입력한 %d는 소수가 아닙니다.\n", n);
+				break;
 			}
 		}
 	}
