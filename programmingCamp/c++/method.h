@@ -7,8 +7,9 @@ using namespace std;
 
 class Effector {
 public:
-	void Problem24();
+	void Problem11();
 	void Problem18();
+	void Problem24();
 };
 
 #endif
