@@ -16,13 +16,17 @@ int problem_6() {
 	while (1) {
 		printf("%d부터 %d사이의 수를 입력하세요. ", min, max);
 		scanf("%d", &n);
+		
+		if (n < 1 || n > 100) {
+			printf("잘못된 입력입니다.\n");
+			return 0;
+		}
 		if (n == random) {
 			break;
-		}
-		else if (n > random) {
+		} else if (n > random) {
 			max = n;
 			count++;
-		} else if(n < random){
+		} else if (n < random) {
 			min = n;
 			count++;
 		}
