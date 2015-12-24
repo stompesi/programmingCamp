@@ -33,6 +33,9 @@
     <ClCompile Include="codingConvention.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="problem_7.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="method.h">
