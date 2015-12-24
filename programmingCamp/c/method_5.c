@@ -11,14 +11,12 @@ int problem_5() {
 
 	for (i = 2; i < (n / 2); i++) {
 		if (n % i == 0) {
-			result = 0;
+			if (n == i) {
+				printf("입력한 %d는 소수입니다.\n", n);
+			} else {
+				printf("입력한 %d는 소수가 아닙니다.\n", n);
+			}
 		}
-	}
-
-	if (result == 0) {
-		printf("입력한 %d는 소수가 아닙니다.\n", n);
-	} else {
-		printf("입력한 %d는 소수입니다.\n", n);
 	}
 
 	return 0;
