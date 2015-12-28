@@ -10,13 +10,6 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="method_3.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="method.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{44B461F5-D079-415D-89D2-8C91AB44DB31}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -27,7 +20,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v100</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -81,6 +74,17 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="codingConvention.cpp" />
+    <ClCompile Include="method_3.cpp" />
+    <ClCompile Include="method_11.cpp" />
+    <ClCompile Include="method_18.cpp" />
+    <ClCompile Include="method_24.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="method.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

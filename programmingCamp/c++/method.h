@@ -1,2 +1,16 @@
+#if !defined(METHOD_H)
+#define METHOD_H
 
-void problem_3();
+#include <iostream>
+#include<string>
+using namespace std;
+
+class Effector {
+public:
+	void Problem11();
+	void Problem18();
+	void Problem24();
+	void Problem3();
+};
+
+#endif
