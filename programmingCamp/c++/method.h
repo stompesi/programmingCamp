@@ -10,6 +10,7 @@ public:
 	void Problem11();
 	void Problem18();
 	void Problem24();
+	void Problem3();
 };
 
 #endif
