@@ -39,6 +39,9 @@
     <ClCompile Include="method_5.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="method_11.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="method.h">
