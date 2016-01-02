@@ -26,11 +26,14 @@
     </ClCompile>
     <ClCompile Include="method_11.cpp">
       <Filter>소스 파일</Filter>
-    </ClCompile>	
+    </ClCompile>
     <ClCompile Include="method_18.cpp">
-	<Filter>소스 파일</Filter>
+      <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="method_24.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="method_28.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

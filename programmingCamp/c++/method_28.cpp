@@ -1,5 +1,4 @@
-#include<iostream>
-#include<string>
+#include"method.h"
 #include<ctype.h>
 using namespace std;
 
@@ -59,7 +58,7 @@ int* ArrayUtility2::concat(int s1[], int s2[], int size){
 	}
 	return pDstArray;
 }
-void problem_28(){
+void Effector::Problem28(){
 	string input_array_size;
 	int array_size;
 	int return_size;
