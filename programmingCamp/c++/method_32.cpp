@@ -1,20 +1,36 @@
-#include<iostream>
+#include"method.h"
 #include<vector>
-
+#include<ctype.h>
 using namespace std;
-void Problem_32(){
+bool IsInteger(string inputString){
+	for(int i = 0 ; i < inputString.size() ; i++){
+		if(!isdigit(inputString[i])){
+			return false;
+		}
+	}
+	return true;
+}
+void Effector::Problem32(){
 	vector<int> integer_storage;
-	int input;
+	vector<int>::iterator it;
+	string input;
+	int input_integer;
 	int total_sum;
 	double average;
-	vector<int>::iterator it;
+	
 	do{
 		cout<<"정수를 입력하세요 <0을 입력하면 종료>>> ";
-		cin>>input;
-		if(input == 0){
-			break;
+		getline(cin,input,'\n');
+		if(IsInteger(input)){
+			input_integer = stoi(input);
+			if(input_integer == 0){
+				break;
+			}
+		}else{
+			cout<<"입력이 바르지 않습니다. 정수를 입려하세요"<<endl;
+			continue;
 		}
-		integer_storage.push_back(input);
+		integer_storage.push_back(input_integer);
 		total_sum = 0;
 		for(it = integer_storage.begin() ; it != integer_storage.end() ; it++){
 			cout<<*it<<" ";
