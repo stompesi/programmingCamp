@@ -2,7 +2,7 @@
 
 int main() {
 	Effector effector = Effector();
-	effector.Problem3();
+	effector.Problem32();
 
 	return 0;
 }
