@@ -21,7 +21,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v100</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -79,9 +79,16 @@
   <ItemGroup>
     <ClCompile Include="codingConvention.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="method_18.c" />
+    <ClCompile Include="method_17.c" />
+    <ClCompile Include="method_16.c" />
+    <ClCompile Include="method_15.c" />
+    <ClCompile Include="method_13.c" />
     <ClCompile Include="method_1.c" />
+    <ClCompile Include="method_10.c" />
     <ClCompile Include="method_11.c" />
     <ClCompile Include="method_12.c" />
+    <ClCompile Include="method_14.c" />
     <ClCompile Include="method_2.c" />
     <ClCompile Include="method_3.c" />
     <ClCompile Include="method_4.c" />

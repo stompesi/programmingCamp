@@ -1,6 +1,6 @@
 #include "method.h"
 
-int factorial(int number);
+int factorial_recursive(int number);
 
 int problem_12() {
 	int input_number;
@@ -17,14 +17,14 @@ int problem_12() {
 		return 0;
 	}
 
-	printf("%d! = %d\n", input_number, factorial(input_number));
+	printf("%d! = %d\n", input_number, factorial_recursive(input_number));
 }
 
-int factorial(int number) {
+int factorial_recursive(int number) {
 	if(number <= 1) {
 		return 1;
 	}
 	else {
-		return number * factorial(number - 1);
+		return number * factorial_recursive(number - 1);
 	}
 }
