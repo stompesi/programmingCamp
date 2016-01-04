@@ -79,6 +79,7 @@
   <ItemGroup>
     <ClCompile Include="codingConvention.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="method_17.c" />
     <ClCompile Include="method_16.c" />
     <ClCompile Include="method_15.c" />
     <ClCompile Include="method_13.c" />
