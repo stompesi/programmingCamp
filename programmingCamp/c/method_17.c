@@ -5,6 +5,10 @@ struct course {
 	int grade_num;
 	char grade[3];
 };
+struct grade {
+	char *grade;
+	double score;
+};
 
 double get_grade_double(char *grade);
 double get_average(struct course *courses, int size);
@@ -30,32 +34,22 @@ int problem_17() {
 }
 
 double get_grade_double(char *grade) {
-	if(strcmp(grade, "A+")==0) {
-		return 4.5;
-	}
-	else if(strcmp(grade, "A0") == 0) {
-		return 4.0;
-	}
-	else if(strcmp(grade, "B+") == 0) {
-		return 3.5;
-	}
-	else if(strcmp(grade, "B0") == 0) {
-		return 3.0;
-	}
-	else if(strcmp(grade, "C+") == 0) {
-		return 2.5;
-	}
-	else if(strcmp(grade, "C0") == 0) {
-		return 2.0;
-	}
-	else if(strcmp(grade, "D+") == 0) {
-		return 1.5;
-	}
-	else if(strcmp(grade, "D0") == 0) {
-		return 1.0;
-	}
-	else if(strcmp(grade, "F") == 0) {
-		return 0.0;
+	int i = 0;
+	struct grade standard_grade[] = 
+	{{"A+", 4.5}, 
+	 {"A0", 4.0}, 
+	 {"B+", 3.5}, 
+	 {"B0", 3.0}, 
+	 {"C+", 2.5}, 
+	 {"C0", 2.0}, 
+	 {"D+", 1.5},
+	 {"D0", 1.0}, 
+	 {"F" , 0.0}};
+
+	for(i = 0 ; i < 9; i++) {
+		if(strcmp(grade, standard_grade[i].grade) == 0) {
+			return standard_grade[i].score;
+		}
 	}
 }
 
