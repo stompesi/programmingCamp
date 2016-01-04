@@ -14,7 +14,7 @@ int problem_18() {
 		return 0;
 	}
 
-	ptr = malloc(n*sizeof(int));
+	ptr = malloc(n * sizeof(int));
 
 	for(i = 0; i < n; i++) {
 		printf("%d번째 정수 : ", i + 1);
@@ -29,6 +29,7 @@ int problem_18() {
 	}
 
 	printf("가장 큰 정수 : %d\n", max);
+	free(ptr);
 
 	return 0;
 }
