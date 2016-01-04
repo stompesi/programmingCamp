@@ -11,6 +11,7 @@ public:
 	void Problem18();
 	void Problem24();
 	void Problem3();
+	void Problem38();
 	void Problem32();
 	void Problem28();
 };
