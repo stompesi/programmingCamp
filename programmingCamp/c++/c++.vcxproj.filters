@@ -33,6 +33,9 @@
     <ClCompile Include="method_24.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="method_32.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="method_28.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
