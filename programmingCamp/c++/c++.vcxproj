@@ -20,7 +20,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v100</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -77,11 +77,13 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="codingConvention.cpp" />
+    <ClCompile Include="method_28.cpp" />
     <ClCompile Include="method_3.cpp" />
     <ClCompile Include="method_11.cpp" />
     <ClCompile Include="method_18.cpp" />
     <ClCompile Include="method_24.cpp" />
     <ClCompile Include="method_38.cpp" />
+    <ClCompile Include="method_32.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="method.h" />
