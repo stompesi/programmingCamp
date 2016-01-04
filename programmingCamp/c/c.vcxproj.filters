@@ -33,10 +33,10 @@
     <ClCompile Include="codingConvention.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="problem_7.c">
+    <ClCompile Include="method_5.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="method_5.c">
+    <ClCompile Include="method_7.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

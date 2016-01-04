@@ -82,7 +82,7 @@
     <ClCompile Include="method_2.c" />
     <ClCompile Include="method_3.c" />
     <ClCompile Include="method_4.c" />
-    <ClCompile Include="problem_7.c" />
+    <ClCompile Include="method_7.c" />
     <ClCompile Include="method_5.c" />
   </ItemGroup>
   <ItemGroup>
