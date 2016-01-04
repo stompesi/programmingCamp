@@ -42,6 +42,9 @@
     <ClCompile Include="method_6.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="method_10.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="method_11.c">
       <Filter>소스 파일</Filter>
     </ClCompile>

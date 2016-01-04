@@ -10,6 +10,8 @@ int problem_2();
 int problem_3();
 int problem_4();
 int problem_5();
+int problem_7();
+int problem_10();
 int problem_18();
 int problem_17();
 int problem_16();
