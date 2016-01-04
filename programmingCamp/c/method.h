@@ -12,5 +12,6 @@ int problem_4();
 int problem_5();
 int problem_6();
 int problem_7();
+int problem_11();
 
 #endif

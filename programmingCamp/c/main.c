@@ -1,5 +1,5 @@
 #include "method.h"
 
 int main() {
-	problem_6();
+	problem_11();
 }
