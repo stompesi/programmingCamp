@@ -18,7 +18,7 @@
     <ClCompile Include="main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="method_4.cpp">
+    <ClCompile Include="method_4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
