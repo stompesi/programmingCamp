@@ -76,11 +76,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\c_level_1\method.h" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="method_2.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\c_level_1\main.c" />
-    <ClCompile Include="method_2.c" />
+    <ClInclude Include="method.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
