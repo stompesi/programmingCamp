@@ -10,6 +10,13 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+    <ClCompile Include="method_11.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="method.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{CDBACF9A-F056-453C-81AA-B86BA99D388D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -75,13 +82,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\c_level_1\method.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\c_level_1\main.c" />
-    <ClCompile Include="..\c_level_1\method_11.c" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
