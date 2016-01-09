@@ -20,10 +20,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\c_level_1\main.c">
+    <ClCompile Include="method_5.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="method_5.c">
+    <ClCompile Include="main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
