@@ -5,5 +5,4 @@
 
 int problem_14();
 
-
 #endif
