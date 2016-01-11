@@ -29,7 +29,7 @@ int problem_18();
 //int problem_19();
 
 //int problem_20();
-//int problem_21();
+int problem_21();
 //int problem_22();
 //int problem_23();
 //int problem_24();
@@ -174,9 +174,5 @@ int problem_18();
 //int problem_143();
 //int problem_144();
 //int problem_145();
-//int problem_146();
-//int problem_147();
-//int problem_148();
-//int problem_149();
-//int problem_150();
+
 #endif
