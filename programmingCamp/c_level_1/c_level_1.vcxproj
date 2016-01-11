@@ -98,6 +98,7 @@
     <ClCompile Include="method_6.c" />
     <ClCompile Include="method_7.c" />
     <ClCompile Include="method_8.c" />
+    <ClCompile Include="method_9.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="method.h" />
