@@ -21,7 +21,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v100</PlatformToolset>
+    <PlatformToolset>v110</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -85,6 +85,7 @@
     <ClCompile Include="method_24.cpp" />
     <ClCompile Include="method_38.cpp" />
     <ClCompile Include="method_32.cpp" />
+    <ClCompile Include="method_7.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="method.h" />
