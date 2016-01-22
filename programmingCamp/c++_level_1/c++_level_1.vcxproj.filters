@@ -42,9 +42,18 @@
     <ClCompile Include="method_28.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="method_8.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="method.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="tool1.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="tool2.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
