@@ -2,7 +2,8 @@
 #define METHOD_H
 
 #include <iostream>
-#include<string>
+#include <string>
+#include <fstream>
 using namespace std;
 
 class Effector {
@@ -14,6 +15,7 @@ public:
 	void Problem38();
 	void Problem32();
 	void Problem28();
+	void Problem2();
 };
 
 #endif
