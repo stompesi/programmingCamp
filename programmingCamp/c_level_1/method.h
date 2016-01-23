@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <malloc.h>
 #include <time.h>
 #include <math.h>
@@ -32,7 +33,7 @@ int problem_18();
 //int problem_21();
 //int problem_22();
 int problem_23();
-//int problem_24();
+int problem_24();
 //int problem_25();
 //int problem_26();
 //int problem_27();
