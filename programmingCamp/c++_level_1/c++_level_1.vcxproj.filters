@@ -42,6 +42,9 @@
     <ClCompile Include="method_28.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="method_14.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="method.h">
