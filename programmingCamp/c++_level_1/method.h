@@ -14,6 +14,7 @@ public:
 	void Problem38();
 	void Problem32();
 	void Problem28();
+	void Problem20();
 };
 
 #endif
