@@ -6,6 +6,7 @@ int main() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	problem_24();
 =======
 	problem_9();
@@ -22,4 +23,7 @@ int main() {
 =======
 	problem_26();
 >>>>>>> feature/c/level_1/problem_26
+=======
+	problem_22();
+>>>>>>> feature/c/level_1/problem_22
 }

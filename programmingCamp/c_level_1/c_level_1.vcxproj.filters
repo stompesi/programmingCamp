@@ -75,6 +75,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     <ClCompile Include="method_23.c">
       <Filter>소스 파일</Filter>
@@ -179,6 +180,11 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
 >>>>>>> feature/c/level_1/problem_20
+=======
+    <ClCompile Include="method_22.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+>>>>>>> feature/c/level_1/problem_22
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="method.h">
