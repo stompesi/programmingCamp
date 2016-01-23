@@ -89,6 +89,7 @@
     <ClCompile Include="method_6.c" />
     <ClCompile Include="method_7.c" />
     <ClCompile Include="method_8.c" />
+<<<<<<< HEAD
 
     <ClCompile Include="method_10.c" />
     <ClCompile Include="method_11.c" />
@@ -130,6 +131,9 @@
     <ClCompile Include="method_48.c" />
     <ClCompile Include="method_49.c" />
     <ClCompile Include="method_50.c" />
+=======
+    <ClCompile Include="method_9.c" />
+>>>>>>> feature/c/level_1/problem_9
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="method.h" />

@@ -16,8 +16,12 @@ int problem_5();
 int problem_6();
 int problem_7();
 int problem_8();
+<<<<<<< HEAD
 //int problem_9();
 
+=======
+int problem_9();
+>>>>>>> feature/c/level_1/problem_9
 int problem_10();
 int problem_11();
 int problem_12();
