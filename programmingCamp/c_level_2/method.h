@@ -22,7 +22,7 @@ int problem_5();
 //int problem_9();
 //int problem_10();
 //
-//int problem_11();
+int problem_11();
 //int problem_12();
 //int problem_13();
 //int problem_14();
