@@ -5,6 +5,8 @@
 #include<string>
 using namespace std;
 
+#include <vector>
+
 class Effector {
 public:
 	void Problem11();
@@ -14,6 +16,7 @@ public:
 	void Problem38();
 	void Problem32();
 	void Problem28();
+	void Problem41();
 };
 
 #endif
