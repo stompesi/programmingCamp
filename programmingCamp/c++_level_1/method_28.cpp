@@ -16,9 +16,9 @@ public:
 
 bool ArrayUtility2::inputArraySize(string input) {
 	for(int i = 0 ; i < input.size() ; i++) {
-		if(isdigit(input[i])){
+		if(isdigit(input[i])) {
 			return true;
-		}else{
+		} else {
 			return false;
 		}
 	}
@@ -30,7 +30,7 @@ int* ArrayUtility2::remove(int s1[], int s2[], int size, int& retSize) {
 	retSize = size;
 	for(int i = 0 ; i < size ; i++) {
 		for(int j = 0 ; j < size ; j++) {
-			if(s1[i] == s2[j]){
+			if(s1[i] == s2[j]) {
 				retSize--;
 				break;
 			}
@@ -41,7 +41,7 @@ int* ArrayUtility2::remove(int s1[], int s2[], int size, int& retSize) {
 	}
 
 	arrayRemove = new int[retSize];
-	for(int i = 0 ; i < size ; i++){
+	for(int i = 0 ; i < size ; i++) {
 		for(int j = 0 ; j < size ; j++) {
 			if(j == size -1) {
 				arrayRemove[count++] = s1[i];
@@ -103,7 +103,7 @@ void Effector::Problem28() {
 
 	pArrayRemove = ArrayUtility2::remove(pArray[ArrayName::X], pArray[ArrayName::Y], array_size, return_size);
 	cout << "배열 x[]에서 y[]를 뺀 결과를 출력한다. 개수는 " << return_size << endl;
-	for(int i = 0 ; i < return_size ; i++){
+	for(int i = 0 ; i < return_size ; i++) {
 		cout<<pArrayRemove[i] << " ";
 	}
 	cout << endl;

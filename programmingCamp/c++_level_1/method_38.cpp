@@ -113,9 +113,9 @@ void Library::SearchSeat() {
 	cout << "조회할 좌석번호를 입력하세요>> ";
 	cin >> seat_id;
 	fflush(stdin);
-	if(aSeat[seat_id-1].GetReserveSeat()){
+	if(aSeat[seat_id-1].GetReserveSeat()) {
 		cout << "이 자리는 " << aSeat[seat_id-1].GetName() << "님이 예약하셨습니다." << endl;
-	}else{
+	} else {
 		cout << "이 자리는 비었습니다." << endl;
 	}
 }

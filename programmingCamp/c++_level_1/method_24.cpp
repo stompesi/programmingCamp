@@ -12,7 +12,7 @@ public:
 	int GetRadius();
 };
 
-int Circle::GetRadius(){ return this->aRadius; }
+int Circle::GetRadius() { return this->aRadius; }
 void Circle::SetRadius(int radius) { this->aRadius = radius; }
 double Circle::GetArea() { return PI * aRadius * aRadius; }
 
