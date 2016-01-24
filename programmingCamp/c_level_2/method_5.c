@@ -16,8 +16,7 @@ int problem_5() {
 	index = search(array, number);
 	if (index == -1) {
 		printf("%d이 배열에 없습니다.\n", number);
-	}
-	else {
+	} else {
 		printf("요소의 위치 : %d\n", index);
 	}
 
