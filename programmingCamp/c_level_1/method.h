@@ -180,9 +180,5 @@ int problem_142();
 int problem_143();
 int problem_144();
 int problem_145();
-int problem_146();
-int problem_147();
-int problem_148();
-int problem_149();
 
 #endif
