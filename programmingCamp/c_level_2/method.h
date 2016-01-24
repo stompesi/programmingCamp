@@ -3,6 +3,6 @@
 
 #include <stdio.h>
 
-int problem_5();
+int problem_50();
 
 #endif
