@@ -79,6 +79,7 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="codingConvention.cpp" />
+    <ClCompile Include="method_23.cpp" />
     <ClCompile Include="method_26.cpp" />
     <ClCompile Include="method_28.cpp" />
     <ClCompile Include="method_29.cpp" />
