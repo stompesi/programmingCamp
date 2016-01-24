@@ -2,7 +2,6 @@
 
 int main() {
 	int select;
-
 	while(1) {
 		system("cls");
 		printf("원하는 문제 번호 선택 (1~143) - 종료(0) : >> ");
@@ -236,9 +235,9 @@ int main() {
 		//case 75:
 		//	problem_75();
 		//	break;
-		//case 76:
-		//	problem_76();
-		//	break;
+		case 76:
+			problem_76();
+			break;
 		//case 77:
 		//	problem_77();
 		//	break;
