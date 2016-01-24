@@ -446,18 +446,8 @@ int main() {
 		case 145:
 			problem_145();
 			break;
-		case 146:
-			problem_146();
-			break;
-		case 147:
-			problem_147();
-			break;
-		case 148:
-			problem_148();
-			break;
-		case 149:
-			problem_149();
-			break;
+		default:
+			printf("존재하지않는 문제번호.\n")
 		}
 		printf("계속하시려면 아무키나 입력해주세요.");
 		getch();
