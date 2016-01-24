@@ -43,7 +43,7 @@ public:
 	void Problem26(){};
 	void Problem27(){};
 	void Problem28();
-	void Problem29(){};
+	void Problem29();
 
 	void Problem30(){};
 	void Problem31(){};
