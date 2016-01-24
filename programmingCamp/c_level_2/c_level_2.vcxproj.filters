@@ -29,5 +29,8 @@
     <ClCompile Include="method_1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="method_4.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

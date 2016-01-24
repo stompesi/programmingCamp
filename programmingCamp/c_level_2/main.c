@@ -20,9 +20,9 @@ int main() {
 		//case 3:
 		//	problem_3();
 		//	break;
-		//case 4:
-		//	problem_4();
-		//	break;
+		case 4:
+			problem_4();
+			break;
 		case 5:
 			problem_5();
 			break;
