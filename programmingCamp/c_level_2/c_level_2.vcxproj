@@ -84,6 +84,7 @@
     <ClCompile Include="method_11.c" />
     <ClCompile Include="method_4.c" />
     <ClCompile Include="method_5.c" />
+    <ClCompile Include="method_50.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
