@@ -17,18 +17,18 @@ int main() {
 		//case 2:
 		//	problem_2();
 		//	break;
-		//case 3:
-		//	problem_3();
-		//	break;
+		case 3:
+			problem_3();
+			break;
 		case 4:
 			problem_4();
 			break;
 		case 5:
 			problem_5();
 			break;
-		//case 6:
-		//	problem_6();
-		//	break;
+		case 6:
+			problem_6();
+			break;
 		//case 7:
 		//	problem_7();
 		//	break;
