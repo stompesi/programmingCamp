@@ -111,7 +111,7 @@ int problem_50();
 //int problem_86();
 //int problem_87();
 //int problem_88();
-//int problem_89();
+int problem_89();
 //int problem_90();
 //
 //int problem_90();
