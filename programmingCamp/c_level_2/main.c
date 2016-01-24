@@ -7,7 +7,8 @@ int main() {
 		system("cls");
 		printf("원하는 문제 번호 선택 (1~143) - 종료(0) : >> ");
 		scanf("%d", &select);			
-		fflush(stdin);
+		//fflush(stdin);
+		getchar();
 		switch(select) {
 		case 0:
 			return 0;
@@ -248,9 +249,9 @@ int main() {
 		//case 79:
 		//	problem_79();
 		//	break;
-		//case 80:
-		//	problem_80();
-		//	break;
+		case 80:
+			problem_80();
+			break;
 		//case 81:
 		//	problem_81();
 		//	break;
