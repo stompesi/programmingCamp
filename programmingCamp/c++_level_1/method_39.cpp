@@ -76,8 +76,7 @@ void Floor_39::ShowSeat() {
 	for (int i = 0; i < aSeatCount; i++) {
 		if (!aSeat[i].GetName().compare("")) {
 			cout << aSeat[i].GetId() << ".--------  \t\t";
-		}
-		else {
+		} else {
 			cout << aSeat[i].GetId() << "." << aSeat[i].GetName() << "  \t\t";
 		}
 		if ((1 + i) % 3 == 0) {
@@ -141,12 +140,10 @@ void Library_39::CancelSeat() {
 		if( !aFloor[floor_id-1].GetReserveName(seat_id-1).compare(name)){
 			aFloor[floor_id - 1].InitSeat(seat_id - 1);
 			cout << "예약이 취소되었습니다." << endl;
-		}
-		else {
+		} else {
 			cout << "이름이 올바르지 않습니다." << endl;
 		}
-	}
-	else {
+	} else {
 		cout << "예약되어 있지 않기 때문에 취소할 수 없습니다." << endl;
 	}
 }
@@ -161,8 +158,7 @@ void Library_39::SearchSeat() {
 	fflush(stdin);
 	if (aFloor[floor_id - 1].GetReserveSeat(seat_id - 1)) {
 		cout << "이 자리는 " << aFloor[floor_id-1].GetReserveName(seat_id - 1) << "님이 예약하셨습니다." << endl;
-	}
-	else {
+	} else {
 		cout << "이 자리는 비었습니다." << endl;
 	}
 }
@@ -185,8 +181,7 @@ void Library_39::ReserveSeat() {
 	cin.ignore(1, '\n');
 	if (aFloor[floor_id -1].GetReserveSeat(seat_id - 1)) {
 		cout << "이미 예약된 좌석입니다." << endl;
-	}
-	else {
+	} else {
 		cout << "사용하실 분 이름을 입력해 주세요>> ";
 		getline(cin, name);
 		aFloor[floor_id - 1].ReserveSeat(seat_id - 1, name);
@@ -194,7 +189,7 @@ void Library_39::ReserveSeat() {
 	}
 }
 void Library_39::ShowSeat() {
-	for (int i = 0; i < aFloorCount; i++) {
+	for (int i = 0 ; i < aFloorCount ; i++) {
 		cout << i + 1 << "층 " << endl;
 		aFloor[i].ShowSeat();
 	}
