@@ -5,7 +5,7 @@ int main() {
 
 	while(1) {
 		system("cls");
-		printf("원하는 문제 번호 선택 (1~143) - 종료(0) : >> ");
+		printf("원하는 문제 번호 선택 (1~22) - 종료(0) : >> ");
 		scanf("%d", &select);			
 		fflush(stdin);
 		switch(select) {
