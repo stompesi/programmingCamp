@@ -76,7 +76,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="method_18.cpp" />
     <ClCompile Include="method_5.cpp" />
+    <ClCompile Include="method_9.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="method.h" />
