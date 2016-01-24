@@ -290,9 +290,9 @@ int main() {
 		//case 93:
 		//	problem_93();
 		//	break;
-		//case 94:
-		//	problem_94();
-		//	break;
+		case 94:
+			problem_94();
+			break;
 		//case 95:
 		//	problem_95();
 		//	break;
