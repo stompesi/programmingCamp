@@ -42,6 +42,13 @@
     <ClCompile Include="method_6.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="method_8.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="method_9.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    
     <ClCompile Include="method_10.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -69,14 +76,17 @@
     <ClCompile Include="method_18.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="method_8.c">
+
+
+    <ClCompile Include="method_21.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
+    <ClCompile Include="method_20.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="method_22.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="method_23.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -164,27 +174,7 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
 
-
-=======
-    <ClCompile Include="method_9.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
->>>>>>> feature/c/level_1/problem_9
-=======
-    <ClCompile Include="method_21.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
->>>>>>> feature/c/level_1/problem_21
-=======
-    <ClCompile Include="method_20.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
->>>>>>> feature/c/level_1/problem_20
-=======
-    <ClCompile Include="method_22.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
->>>>>>> feature/c/level_1/problem_22
+    
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="method.h">

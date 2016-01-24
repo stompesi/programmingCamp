@@ -83,22 +83,13 @@
     <ClCompile Include="main.c" />
     <ClCompile Include="method_1.c" />
     <ClCompile Include="method_2.c" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <ClCompile Include="method_21.c" />
-=======
-    <ClCompile Include="method_20.c" />
->>>>>>> feature/c/level_1/problem_20
-=======
-    <ClCompile Include="method_22.c" />
->>>>>>> feature/c/level_1/problem_22
     <ClCompile Include="method_3.c" />
     <ClCompile Include="method_4.c" />
     <ClCompile Include="method_5.c" />
     <ClCompile Include="method_6.c" />
     <ClCompile Include="method_7.c" />
     <ClCompile Include="method_8.c" />
-<<<<<<< HEAD
+    <ClCompile Include="method_9.c" />
 
     <ClCompile Include="method_10.c" />
     <ClCompile Include="method_11.c" />
@@ -109,7 +100,11 @@
     <ClCompile Include="method_16.c" />
     <ClCompile Include="method_17.c" />
     <ClCompile Include="method_18.c" />
+    <ClCompile Include="method_19.c" />
 
+    <ClCompile Include="method_20.c" />
+    <ClCompile Include="method_21.c" />
+    <ClCompile Include="method_22.c" />
     <ClCompile Include="method_23.c" />
     <ClCompile Include="method_24.c" />
     <ClCompile Include="method_25.c" />
@@ -140,9 +135,115 @@
     <ClCompile Include="method_48.c" />
     <ClCompile Include="method_49.c" />
     <ClCompile Include="method_50.c" />
-=======
-    <ClCompile Include="method_9.c" />
->>>>>>> feature/c/level_1/problem_9
+
+    <ClCompile Include="method_51.c" />
+    <ClCompile Include="method_52.c" />
+    <ClCompile Include="method_53.c" />
+    <ClCompile Include="method_54.c" />
+    <ClCompile Include="method_55.c" />
+    <ClCompile Include="method_56.c" />
+    <ClCompile Include="method_57.c" />
+    <ClCompile Include="method_58.c" />
+    <ClCompile Include="method_59.c" />
+    <ClCompile Include="method_60.c" />
+
+    <ClCompile Include="method_61.c" />
+    <ClCompile Include="method_62.c" />
+    <ClCompile Include="method_63.c" />
+    <ClCompile Include="method_64.c" />
+    <ClCompile Include="method_65.c" />
+    <ClCompile Include="method_66.c" />
+    <ClCompile Include="method_67.c" />
+    <ClCompile Include="method_68.c" />
+    <ClCompile Include="method_69.c" />
+    <ClCompile Include="method_70.c" />
+
+    <ClCompile Include="method_71.c" />
+    <ClCompile Include="method_72.c" />
+    <ClCompile Include="method_73.c" />
+    <ClCompile Include="method_74.c" />
+    <ClCompile Include="method_75.c" />
+    <ClCompile Include="method_76.c" />
+    <ClCompile Include="method_77.c" />
+    <ClCompile Include="method_78.c" />
+    <ClCompile Include="method_79.c" />
+    <ClCompile Include="method_80.c" />
+
+    <ClCompile Include="method_81.c" />
+    <ClCompile Include="method_82.c" />
+    <ClCompile Include="method_83.c" />
+    <ClCompile Include="method_84.c" />
+    <ClCompile Include="method_85.c" />
+    <ClCompile Include="method_86.c" />
+    <ClCompile Include="method_87.c" />
+    <ClCompile Include="method_88.c" />
+    <ClCompile Include="method_89.c" />
+    <ClCompile Include="method_90.c" />
+
+    <ClCompile Include="method_91.c" />
+    <ClCompile Include="method_92.c" />
+    <ClCompile Include="method_93.c" />
+    <ClCompile Include="method_94.c" />
+    <ClCompile Include="method_95.c" />
+    <ClCompile Include="method_96.c" />
+    <ClCompile Include="method_97.c" />
+    <ClCompile Include="method_98.c" />
+    <ClCompile Include="method_99.c" />
+    <ClCompile Include="method_100.c" />
+
+    <ClCompile Include="method_101.c" />
+    <ClCompile Include="method_102.c" />
+    <ClCompile Include="method_103.c" />
+    <ClCompile Include="method_104.c" />
+    <ClCompile Include="method_105.c" />
+    <ClCompile Include="method_106.c" />
+    <ClCompile Include="method_107.c" />
+    <ClCompile Include="method_108.c" />
+    <ClCompile Include="method_109.c" />
+    <ClCompile Include="method_110.c" />
+
+    <ClCompile Include="method_111.c" />
+    <ClCompile Include="method_112.c" />
+    <ClCompile Include="method_113.c" />
+    <ClCompile Include="method_114.c" />
+    <ClCompile Include="method_115.c" />
+    <ClCompile Include="method_116.c" />
+    <ClCompile Include="method_117.c" />
+    <ClCompile Include="method_118.c" />
+    <ClCompile Include="method_119.c" />
+    <ClCompile Include="method_120.c" />
+
+    <ClCompile Include="method_121.c" />
+    <ClCompile Include="method_122.c" />
+    <ClCompile Include="method_123.c" />
+    <ClCompile Include="method_124.c" />
+    <ClCompile Include="method_125.c" />
+    <ClCompile Include="method_126.c" />
+    <ClCompile Include="method_127.c" />
+    <ClCompile Include="method_128.c" />
+    <ClCompile Include="method_129.c" />
+    <ClCompile Include="method_130.c" />
+
+    <ClCompile Include="method_131.c" />
+    <ClCompile Include="method_132.c" />
+    <ClCompile Include="method_133.c" />
+    <ClCompile Include="method_134.c" />
+    <ClCompile Include="method_135.c" />
+    <ClCompile Include="method_136.c" />
+    <ClCompile Include="method_137.c" />
+    <ClCompile Include="method_138.c" />
+    <ClCompile Include="method_139.c" />
+    <ClCompile Include="method_140.c" />
+
+    <ClCompile Include="method_141.c" />
+    <ClCompile Include="method_142.c" />
+    <ClCompile Include="method_143.c" />
+    <ClCompile Include="method_144.c" />
+    <ClCompile Include="method_145.c" />
+    <ClCompile Include="method_146.c" />
+    <ClCompile Include="method_147.c" />
+    <ClCompile Include="method_148.c" />
+    <ClCompile Include="method_149.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="method.h" />
