@@ -1,6 +1,6 @@
 #include"method.h"
 
-int main(){
+int main() {
 	Effector effector;
 	effector.Problem5();
 }

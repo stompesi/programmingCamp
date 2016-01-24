@@ -33,7 +33,7 @@ void Effector::Problem32() {
 		}
 		integer_storage.push_back(input_integer);
 		total_sum = 0;
-		for(it = integer_storage.begin() ; it != integer_storage.end() ; it++){
+		for(it = integer_storage.begin() ; it != integer_storage.end() ; it++) {
 			cout<<*it << " ";
 			total_sum += *it;
 		}

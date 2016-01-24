@@ -40,7 +40,7 @@ IntStorage::IntStorage(int n) {
 	this->aSize = n;
 	this->apValue = new int[aSize];
 }
-IntStorage::~IntStorage(){
+IntStorage::~IntStorage() {
 	delete [] apValue;
 }
 
