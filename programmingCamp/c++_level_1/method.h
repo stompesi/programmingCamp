@@ -50,7 +50,7 @@ public:
 	void Problem32();
 	void Problem33(){};
 	void Problem34(){};
-	void Problem35(){};
+	void Problem35();
 	void Problem36(){};
 	void Problem37(){};
 	void Problem38();
