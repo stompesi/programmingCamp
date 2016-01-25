@@ -71,5 +71,8 @@
     <ClCompile Include="method_60.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="method_57.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

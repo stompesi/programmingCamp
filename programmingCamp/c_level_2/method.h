@@ -85,7 +85,7 @@ int problem_63();
 //int problem_64();
 //int problem_65();
 int problem_66();
-//int problem_67();
+int problem_67();
 //int problem_68();
 int problem_69();
 //int problem_70();
