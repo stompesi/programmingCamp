@@ -20,7 +20,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v100</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -76,16 +76,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="method.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="main.c" />
     <ClCompile Include="method_1.c" />
     <ClCompile Include="method_11.c" />
     <ClCompile Include="method_4.c" />
+    <ClCompile Include="method_41.c" />
     <ClCompile Include="method_47.c" />
     <ClCompile Include="method_5.c" />
     <ClCompile Include="method_50.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="method.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

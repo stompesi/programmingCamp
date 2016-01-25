@@ -15,11 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="method.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="method_5.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -41,5 +36,13 @@
     <ClCompile Include="method_47.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="method_41.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="method.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
