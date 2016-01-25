@@ -260,18 +260,18 @@ int main() {
 		//case 83:
 		//	problem_83();
 		//	break;
-		//case 84:
-		//	problem_84();
-		//	break;
+		case 84:
+			problem_84();
+			break;
 		//case 85:
 		//	problem_85();
 		//	break;
 		//case 86:
 		//	problem_86();
 		//	break;
-		//case 87:
-		//	problem_87();
-		//	break;
+		case 87:
+			problem_87();
+			break;
 		//case 88:
 		//	problem_88();
 		//	break;

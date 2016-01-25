@@ -17,8 +17,8 @@ int problem_87(){
 	p = mystrstr(str1, "COMP");
 	printf("%s\n", p);
 	printf("%s\n", mystrstr(str1, "ng"));
-	while(1)
-		printf("%s\n", mystrstr(str1, gets(buf)));
+	printf("%s\n", mystrstr(str1, gets(buf)));
+		
 	
 	return 0;
 }
