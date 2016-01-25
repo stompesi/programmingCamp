@@ -44,7 +44,7 @@ int problem_11();
 //int problem_27();
 //int problem_28();
 //int problem_29();
-//int problem_30();
+int problem_30();
 //
 //int problem_31();
 //int problem_32();
