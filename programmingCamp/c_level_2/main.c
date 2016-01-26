@@ -17,9 +17,9 @@ int main() {
 		//case 2:
 		//	problem_2();
 		//	break;
-		//case 3:
-		//	problem_3();
-		//	break;
+		case 3:
+			problem_3();
+			break;
 		case 4:
 			problem_4();
 			break;
