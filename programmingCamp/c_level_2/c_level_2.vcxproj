@@ -92,6 +92,7 @@
     <ClCompile Include="method_33.c" />
     <ClCompile Include="method_39.c" />
     <ClCompile Include="method_4.c" />
+    <ClCompile Include="method_41.c" />
     <ClCompile Include="method_47.c" />
     <ClCompile Include="method_5.c" />
     <ClCompile Include="method_50.c" />

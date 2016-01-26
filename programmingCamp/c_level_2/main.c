@@ -131,9 +131,9 @@ int main() {
 		//case 40:
 		//	problem_40();
 		//	break;
-		//case 41:
-		//	problem_41();
-		//	break;
+		case 41:
+			problem_41();
+			break;
 		//case 42:
 		//	problem_42();
 		//	break;
