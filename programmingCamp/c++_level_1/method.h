@@ -8,6 +8,8 @@
 #include<vector>
 #include<algorithm>
 #include<Windows.h>
+#include<ctime>
+#include<cstring>
 using namespace std;
 
 class Effector {
@@ -21,7 +23,7 @@ public:
 	void Problem6(){};
 	void Problem7(){};
 	void Problem8();
-	void Problem9(){};
+	void Problem9();
 
 	void Problem10(){};
 	void Problem11();
