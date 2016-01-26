@@ -42,7 +42,7 @@ int problem_25();
 //int problem_25();
 int problem_26();
 //int problem_27();
-//int problem_28();
+int problem_28();
 //int problem_29();
 int problem_30();
 //
