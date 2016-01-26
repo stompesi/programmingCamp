@@ -29,9 +29,9 @@ int main() {
 		case 6:
 			problem_6();
 			break;
-		//case 7:
-		//	problem_7();
-		//	break;
+		case 7:
+			problem_7();
+			break;
 		case 8:
 			problem_8();
 			break;
