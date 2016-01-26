@@ -84,6 +84,7 @@
     <ClCompile Include="method_10.c" />
     <ClCompile Include="method_11.c" />
     <ClCompile Include="method_12.c" />
+    <ClCompile Include="method_13.c" />
     <ClCompile Include="method_14.c" />
     <ClCompile Include="method_15.c" />
     <ClCompile Include="method_17.c" />

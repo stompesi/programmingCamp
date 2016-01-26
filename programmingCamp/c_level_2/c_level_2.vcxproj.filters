@@ -143,5 +143,8 @@
     <ClCompile Include="method_23.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="method_13.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
