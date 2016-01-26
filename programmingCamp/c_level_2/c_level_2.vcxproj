@@ -110,6 +110,7 @@
     <ClCompile Include="method_81.c" />
     <ClCompile Include="method_84.c" />
     <ClCompile Include="method_87.c" />
+    <ClCompile Include="method_88.c" />
     <ClCompile Include="method_9.c" />
     <ClCompile Include="method_94.c" />
   </ItemGroup>
