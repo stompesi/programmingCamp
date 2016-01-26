@@ -50,9 +50,9 @@ int main() {
 		//case 13:
 		//	problem_13();
 		//	break;
-		//case 14:
-		//	problem_14();
-		//	break;
+		case 14:
+			problem_14();
+			break;
 		case 15:
 			problem_15();
 			break;
