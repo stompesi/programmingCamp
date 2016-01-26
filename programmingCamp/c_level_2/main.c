@@ -140,9 +140,9 @@ int main() {
 		//case 43:
 		//	problem_43();1
 		//	break;
-		//case 44:
-		//	problem_44();
-		//	break;
+		case 44:
+			problem_44();
+			break;
 		//case 45:
 		//	problem_45();
 		//	break;
