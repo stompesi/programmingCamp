@@ -32,9 +32,9 @@ int main() {
 		//case 7:
 		//	problem_7();
 		//	break;
-		//case 8:
-		//	problem_8();
-		//	break;
+		case 8:
+			problem_8();
+			break;
 		case 9:
 			problem_9();
 			break;
