@@ -99,6 +99,7 @@
     <ClCompile Include="method_32.cpp" />
     <ClCompile Include="method_39.cpp" />
     <ClCompile Include="method_41.cpp" />
+    <ClCompile Include="method_5.cpp" />
     <ClCompile Include="method_8.cpp" />
     <ClCompile Include="method_9.cpp" />
   </ItemGroup>

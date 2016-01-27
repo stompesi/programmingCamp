@@ -1,4 +1,5 @@
 #include "method.h"
+
 int main() {
 	int select;
 	Effector effector;
