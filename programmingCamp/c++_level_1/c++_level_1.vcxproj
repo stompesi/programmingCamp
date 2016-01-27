@@ -94,6 +94,7 @@
     <ClCompile Include="method_11.cpp" />
     <ClCompile Include="method_18.cpp" />
     <ClCompile Include="method_24.cpp" />
+    <ClCompile Include="method_31.cpp" />
     <ClCompile Include="method_33.cpp" />
     <ClCompile Include="method_35.cpp" />
     <ClCompile Include="method_37.cpp" />
