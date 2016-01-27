@@ -80,6 +80,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="codingConvention.cpp" />
     <ClCompile Include="method_1.cpp" />
+    <ClCompile Include="method_10.cpp" />
     <ClCompile Include="method_12.cpp" />
     <ClCompile Include="method_14.cpp" />
     <ClCompile Include="method_17.cpp" />
