@@ -122,9 +122,9 @@ int main() {
 		case 37:
 			problem_37();
 			break;
-		//case 38:
-		//	problem_38();
-		//	break;
+		case 38:
+			problem_38();
+			break;
 		case 39:
 			problem_39();
 			break;
