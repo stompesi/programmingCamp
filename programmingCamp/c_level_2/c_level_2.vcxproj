@@ -140,6 +140,7 @@
     <ClCompile Include="method_8.c" />
     <ClCompile Include="method_81.c" />
     <ClCompile Include="method_82.c" />
+    <ClCompile Include="method_83.c" />
     <ClCompile Include="method_84.c" />
     <ClCompile Include="method_85.c" />
     <ClCompile Include="method_86.c" />
