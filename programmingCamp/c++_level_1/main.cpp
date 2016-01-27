@@ -8,7 +8,7 @@ int main() {
 		system("cls");
 		cout << "원하는 문제 번호 선택 (1~46) - 종료(0) : >> ";
 		cin >> select;			
-		fflush(stdin);
+		cin.ignore(1, '\n');
 		switch(select) {
 		case 0:
 			return 0;
