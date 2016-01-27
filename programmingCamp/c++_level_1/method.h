@@ -9,6 +9,8 @@
 #include<vector>
 #include<algorithm>
 #include<Windows.h>
+#include<fstream>
+#include<ctime>
 using namespace std;
 
 class Effector {
@@ -31,7 +33,7 @@ public:
 	void Problem14();
 	void Problem15(){};
 	void Problem16(){};
-	void Problem17(){};
+	void Problem17();
 	void Problem18();
 	void Problem19(){};
 

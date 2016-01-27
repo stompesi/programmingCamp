@@ -28,6 +28,7 @@ void Effector::Problem1() {
 			break;
 		}
 		fin.seekg(2, ios::cur);
+
 	}
 	for(int i =0 ; i < storage.size() ; i++) {
 		cout << storage[i].aName << "ÀÇ ¼ö·® >> ";
