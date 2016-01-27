@@ -81,6 +81,7 @@
     <ClCompile Include="codingConvention.cpp" />
     <ClCompile Include="method_12.cpp" />
     <ClCompile Include="method_14.cpp" />
+    <ClCompile Include="method_17.cpp" />
     <ClCompile Include="method_20.cpp" />
     <ClCompile Include="method_23.cpp" />
     <ClCompile Include="method_26.cpp" />
