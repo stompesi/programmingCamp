@@ -5,8 +5,8 @@ int main() {
 
 	while(1) {
 		system("cls");
-		printf("원하는 문제 번호 선택 (1~22) - 종료(0) : >> ");
-		scanf("%d", &select);			
+		cout << "원하는 문제 번호 선택 (1~46) - 종료(0) : >> ";
+		cin >> select;			
 		fflush(stdin);
 		switch(select) {
 		case 0:
@@ -78,9 +78,9 @@ int main() {
 			effector.Problem22();
 			break;
 		default:
-			printf("존재하지않는 문제번호.\n");
+			cout << "존재하지않는 문제번호." << endl;
 		}
-		printf("계속하시려면 아무키나 입력해주세요.");
+		cout << "계속하시려면 아무키나 입력해주세요."<< endl;
 		getch();
 		fflush(stdin);
 	}
