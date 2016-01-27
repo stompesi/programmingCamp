@@ -144,6 +144,7 @@
     <ClCompile Include="method_88.c" />
     <ClCompile Include="method_9.c" />
     <ClCompile Include="method_91.c" />
+    <ClCompile Include="method_92.c" />
     <ClCompile Include="method_94.c" />
     <ClCompile Include="method_95.c" />
   </ItemGroup>
