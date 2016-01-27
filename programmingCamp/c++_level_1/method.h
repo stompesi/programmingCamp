@@ -1,6 +1,7 @@
 #if !defined(METHOD_H)
 #define METHOD_H
 
+#include<stdio.h>
 #include<stdlib.h>
 #include<iostream>
 #include<string>
@@ -13,7 +14,7 @@ using namespace std;
 class Effector {
 public:
 	void Problem0(){};
-	void Problem1(){};
+	void Problem1();
 	void Problem2(){};
 	void Problem3();
 	void Problem4(){};
