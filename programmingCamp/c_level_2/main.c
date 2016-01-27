@@ -293,9 +293,9 @@ int main() {
 		case 94:
 			problem_94();
 			break;
-		//case 95:
-		//	problem_95();
-		//	break;
+		case 95:
+			problem_95();
+			break;
 		default:
 			printf("존재하지않는 문제번호.\n");
 		}
