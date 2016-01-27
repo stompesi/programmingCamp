@@ -109,7 +109,7 @@ int problem_82();
 //int problem_83();
 int problem_84();
 int problem_85();
-//int problem_86();
+int problem_86();
 int problem_87();
 int problem_88();
 int problem_89();
