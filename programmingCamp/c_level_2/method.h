@@ -92,7 +92,7 @@ int problem_69();
 //int problem_70();
 //
 int problem_70();
-//int problem_71();
+int problem_71();
 int problem_72();
 int problem_73();
 int problem_74();
