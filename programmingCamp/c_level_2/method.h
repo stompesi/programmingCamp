@@ -50,7 +50,7 @@ int problem_31();
 //int problem_32();
 int problem_33();
 int problem_34();
-//int problem_35();
+int problem_35();
 //int problem_36();
 int problem_37();
 int problem_38();
