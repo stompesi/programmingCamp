@@ -20,11 +20,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-<<<<<<< HEAD
     <PlatformToolset>v100</PlatformToolset>
-=======
-    <PlatformToolset>v140</PlatformToolset>
->>>>>>> origin/feature/c/level_2/problem_2
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
