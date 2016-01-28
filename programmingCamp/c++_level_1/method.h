@@ -11,6 +11,7 @@
 #include<Windows.h>
 #include<fstream>
 #include<ctime>
+#include<fstream>
 using namespace std;
 
 class Effector {
@@ -32,7 +33,7 @@ public:
 	void Problem13(){};
 	void Problem14();
 	void Problem15(){};
-	void Problem16(){};
+	void Problem16();
 	void Problem17();
 	void Problem18();
 	void Problem19(){};
