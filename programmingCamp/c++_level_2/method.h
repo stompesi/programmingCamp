@@ -15,7 +15,7 @@ using namespace std;
 class Effector{
 public:
 	void Problem1(int argc, char* argv[]);
-	void Problem2(){};
+	void Problem2();
 	void Problem3(){};
 	void Problem4();
 	void Problem5();

@@ -77,6 +77,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="method_1.cpp" />
+    <ClCompile Include="method_2.cpp" />
     <ClCompile Include="method_22_ArithmeticLogicUnit.cpp" />
     <ClCompile Include="method_22_Computer.cpp" />
     <ClCompile Include="method_22_Console.cpp" />
