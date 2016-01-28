@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "c++_level_1", "c++_level_1\c++_level_1.vcxproj", "{44B461F5-D079-415D-89D2-8C91AB44DB31}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "c_level_1", "c_level_1\c_level_1.vcxproj", "{408358B9-DD95-40A4-AE3D-A865EE3A92D2}"
@@ -8,6 +8,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "c_level_2", "c_level_2\c_level_2.vcxproj", "{CDBACF9A-F056-453C-81AA-B86BA99D388D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "c++_level_2", "c++_level_2\c++_level_2.vcxproj", "{4BEFA878-4F34-4335-BA2F-E216B14BBFE5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ Lv_2 Program_22", "C++ Lv_2 Program_22\C++ Lv_2 Program_22.vcxproj", "{37D69B6D-4EEA-4A3A-9323-E287F2432C7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{4BEFA878-4F34-4335-BA2F-E216B14BBFE5}.Debug|Win32.Build.0 = Debug|Win32
 		{4BEFA878-4F34-4335-BA2F-E216B14BBFE5}.Release|Win32.ActiveCfg = Release|Win32
 		{4BEFA878-4F34-4335-BA2F-E216B14BBFE5}.Release|Win32.Build.0 = Release|Win32
+		{37D69B6D-4EEA-4A3A-9323-E287F2432C7B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{37D69B6D-4EEA-4A3A-9323-E287F2432C7B}.Debug|Win32.Build.0 = Debug|Win32
+		{37D69B6D-4EEA-4A3A-9323-E287F2432C7B}.Release|Win32.ActiveCfg = Release|Win32
+		{37D69B6D-4EEA-4A3A-9323-E287F2432C7B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

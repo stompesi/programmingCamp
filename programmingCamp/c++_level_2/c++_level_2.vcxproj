@@ -76,16 +76,41 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="method_22_ArithmeticLogicUnit.cpp" />
+    <ClCompile Include="method_22_Computer.cpp" />
+    <ClCompile Include="method_22_Console.cpp" />
+    <ClCompile Include="method_22_ControlUnit.cpp" />
+    <ClCompile Include="method_22_CPU.cpp" />
+    <ClCompile Include="method_22_DataRegister.cpp" />
+    <ClCompile Include="method_22_FlagRegister.cpp" />
+    <ClCompile Include="method_22_InstructionRegister.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="method_13.cpp" />
     <ClCompile Include="method_17.cpp" />
     <ClCompile Include="method_18.cpp" />
+    <ClCompile Include="method_22.cpp" />
     <ClCompile Include="method_4.cpp" />
     <ClCompile Include="method_5.cpp" />
     <ClCompile Include="method_6.cpp" />
     <ClCompile Include="method_9.cpp" />
+    <ClCompile Include="method_22_ProgramCounter.cpp" />
+    <ClCompile Include="method_22_RAM.cpp" />
+    <ClCompile Include="method_22_ROM.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="method_22_ArithmeticLogicUnit.h" />
+    <ClInclude Include="method_22_Computer.h" />
+    <ClInclude Include="method_22_Console.h" />
+    <ClInclude Include="method_22_ControlUnit.h" />
+    <ClInclude Include="method_22_CPU.h" />
+    <ClInclude Include="method_22_DataRegister.h" />
+    <ClInclude Include="method_22_FlagRegister.h" />
+    <ClInclude Include="method_22_InstructionRegister.h" />
     <ClInclude Include="method.h" />
+    <ClInclude Include="method_22_RAM.h" />
+    <ClInclude Include="method_22_ROM.h" />
+    <ClInclude Include="method_22_Spec.h" />
+    <ClInclude Include="method_22_ProgramCounter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
