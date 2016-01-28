@@ -1,5 +1,5 @@
 #include "method.h"
-int main() {
+int main(int argc, char* argv[]) {
 	int select;
 	Effector effector;
 
@@ -12,7 +12,7 @@ int main() {
 		case 0:
 			return 0;
 		case 1:
-			effector.Problem1();
+			effector.Problem1(argc, argv);
 			break;
 		case 2:
 			effector.Problem2();
